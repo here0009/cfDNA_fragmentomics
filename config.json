@@ -1,0 +1,19 @@
+{
+    "fastp":"fastp",
+    "sentieon":"sentieon",
+    "mosdepth":"mosdepth",
+    "bedtools":"bedtools",
+    "hg19":"hg19.fa",
+    "hg19_bed":"SCRIPT_DIR/data/hg19.bed",
+    "export_sentieon_license":"",
+    "threads":6,
+    "r_env":"R_ENV_PATH/bin",
+    "batch_size":4,
+    "scripts_dir":"SCRIPT_DIR/src",
+    "bam2bed":"SCRIPT_DIR/src/filter_bam2bed.py",
+    "features_from_bed":"SCRIPT_DIR/src/get_frag_features_from_bed.py",
+    "total_qc":"SCRIPT_DIR/src/sample_total_qc_info.py",
+    "length_ratio_R":"SCRIPT_DIR/src/length_ratio.R",
+    "hg19_blacklist_bed":"SCRIPT_DIR/data/hg19-blacklist.v2.bed",
+    "ichorcna_exdata":"ICHORCNA_DIR/extdata"
+}
